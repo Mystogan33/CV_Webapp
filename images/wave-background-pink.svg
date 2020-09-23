@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1006px" viewBox="0 0 1920 1006" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Wave Background</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Category-Landing-Page" fill="#FF556E">
+            <g id="Body" transform="translate(0.000000, -424.000000)">
+                <path d="M0,0 L1920,0 L1920,1260 C1798.66667,1329.33333 1617,1381 1375,1415 C1012,1466 797,1373 519,1293 C333.666667,1239.66667 160.666667,1228.66667 0,1260 L0,0 Z" id="Wave-Background"></path>
+            </g>
+        </g>
+    </g>
+</svg>

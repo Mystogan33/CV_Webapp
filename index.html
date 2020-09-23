@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV_WebApp</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+  <!-- Boostrap CSS -->
+  <link rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
+  <!--Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <!-- Notifications -->
+  <div style="position: fixed; top: 6%; right: 0; margin-top: 5px; margin-right: 5px; z-index: 10000;">
+
+    <!-- Then put toasts within -->
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+      <div class="toast-header">
+        <img src="images/me.jpg" class="rounded mr-2" alt="..." style="height: 20px; width: 20px">
+        <strong class="mr-auto">Valentin Gay</strong>
+        <small class="text-muted">A l'instant</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">Bienvenue sur mon site !</div>
+    </div>
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+      <div class="toast-header">
+        <img src="images/me.jpg" class="rounded mr-2" alt="..." style="height: 20px; width: 20px">
+        <strong class="mr-auto">Valentin Gay</strong>
+        <small class="text-muted">A l'instant</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">Vous pouvez visiter mes compétences <a href="#skills">ici !</a></div>
+    </div>
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+      <div class="toast-header">
+        <img src="images/me.jpg" class="rounded mr-2" alt="..." style="height: 20px; width: 20px">
+        <strong class="mr-auto">Valentin Gay</strong>
+        <small class="text-muted">A l'instant</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">Ou voir mon expérience <a href="#experience">ici !</a></div>
+    </div>
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+      <div class="toast-header">
+        <img src="images/me.jpg" class="rounded mr-2" alt="..." style="height: 20px; width: 20px">
+        <strong class="mr-auto">Valentin Gay</strong>
+        <small class="text-muted">A l'instant</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">Ou mes projets <a href="#portfolio">là !</a></div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <a class="navbar-brand" href="#"><i class="fab fa-react fa-lg"></i></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+      <ul class="nav nav-pills navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#about">Moi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recommandations">Recommandations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="container-fluid">
+    <div class="col-8 col-lg-4 profile-picture">
+      <img src="images/me.jpg" alt="Moi" class="rounded-circle">
+    </div>
+    <div class="heading">
+      <h1>Hello, moi c'est Valentin 😁</h1>
+      <h3>Développeur Web / Mobile</h3>
+      <a href="docs/CV_Valentin.pdf" download="CV_Valentin.pdf" target="_blank" class="button-1">Télécharger mon CV</a>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon fill="white" points="0,100 100,0 100,100"/>
+    </svg>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="red-divider"></div>
+      <div class="heading">
+        <h2>Compétences</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> 
+              <h5>HTML5</h5>
+              <i class="fab fa-html5 fa-2x"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>CSS</h5>
+              <i class="fab fa-css3 fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>BOOTSTRAP</h5>
+              <i class="fab fa-bootstrap fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>SASS</h5>
+              <i class="fab fa-sass fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>JQUERY</h5>
+              <i class="fab fa-js fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>ANGULAR</h5>
+              <i class="fab fa-angular fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>JAVASCRIPT</h5>
+              <i class="fab fa-js fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>REACT</h5>
+              <i class="fab fa-react fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              <h5>NODEJS</h5>
+              <i class="fab fa-node-js fa-2x" style="margin-left: 1rem;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <div class="white-divider"></div>
+    <div class="heading">
+      <h2>Expérience Professionnelle</h2>
+    </div>
+    <ul class="timeline">
+      <li>
+        <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+        <div class="timeline-panel-container">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3>iD Systèmes</h3>
+              <h4>Développeur Web</h4>
+              <p class="text-muted"><small class="fas fa-clock"></small> 2017-2018</p>
+            </div>
+            <div class="timeline-body">
+              <p>Participation à la conception et au développement d’une nouvelle plateforme web en Angular 4</p>
+              <p>Participation à la conception et au développement d'APIs en langage Go</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+        <div class="timeline-panel-container-inverted">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3>Maincare Solutions</h3>
+              <h4>Développeur Web / Mobile</h4>
+              <p class="text-muted"><small class="fas fa-clock"></small> 2016-2017</p>
+            </div>
+            <div class="timeline-body">
+              <p>Développement d’une console de monitoring/gestion en Angular 4 et son API en NodeJS</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+        <div class="timeline-panel-container">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3>AIA de Bordeaux</h3>
+              <h4>Développeur WebDev</h4>
+              <p class="text-muted"><small class="fas fa-clock"></small> 2015-2016</p>
+            </div>
+            <div class="timeline-body">
+              <p>Développement d’un système d’authentification unique Single Sign-On (SSO) pour une partie des applications métiers des AIA</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"><span class="fas fa-briefcase"></span></div>
+        <div class="timeline-panel-container-inverted">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h3><b>B</b>ase <b>A</b>érienne 118 de Mont-de-Marsan</h3>
+              <h4>Développeur WebDev</h4>
+              <p class="text-muted"><small class="fas fa-clock"></small> 2015-2016</p>
+            </div>
+            <div class="timeline-body">
+              <p>Développement d’un composant graphique Swing dans le cadre de la numérisation d’un cahier d’évaluation militaire.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="container-fluid">
+    <svg viewbox="0 5 100 15">
+      <path fill="#9EAFFD" opacity="0.5" d="M0 30 V15 Q30 3 60 15 V30z" />
+      <path fill="#9EAFFD" d="M0 30 V12 Q30 17 55 12 T100 11 V30z" />
+    </svg>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <div class="red-divider"></div>
+    <div class="heading">
+      <h2>Education</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card education-block">
+          <img src="images/ynov-bordeaux.jpg" class="card-img-top" alt="Ynov Bordeaux">
+          <div class="card-body">
+            <h5 class="card-title">Ingésup - Bordeaux</h5>
+            <p class="card-text">Mastère Expert Informatique</p>
+            <a class="btn btn-danger" href="https://www.google.com/maps/place/Ynov+Informatique+Ing%C3%A9sup+Bordeaux/@44.854186,-0.5663056,15z/data=!4m5!3m4!1s0x0:0x39d74ef785e4ccb7!8m2!3d44.854186!4d-0.5663056">Voir sur Maps</a>
+            <div class="red-divider"></div>
+            <p class="card-text">Intelligence Artificielle, Système d'Informations</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card education-block">
+          <img src="images/Bordeaux_1.jpeg" class="card-img-top" alt="Université Bordeaux 1">
+          <div class="card-body">
+            <h5 class="card-title">Université Bordeaux 1</h5>
+            <p class="card-text">LP Assistant Chef de Projet Informatique</p>
+            <a class="btn btn-danger" href="https://www.google.com/maps/place/Universit%C3%A9+de+Bordeaux+-+Campus+Talence/@44.8086048,-0.5957714,17z/data=!3m1!4b1!4m5!3m4!1s0xd5527777a6f18f1:0xafc0f6b54ea8a8d1!8m2!3d44.8086048!4d-0.5935827">Voir sur Maps</a>
+            <div class="red-divider"></div>
+            <p class="card-text">HTML/CSS, Javascript, JQuery, Responsive Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <div class="white-divider"></div>
+    <div class="heading">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6 projects">
+        <a href="#" target="_blank">
+          <div class="overlay">
+            <img class="img-thumbnail" src="images/travel_io.PNG" alt="Travel.io"/>
+            <div class="projectName">
+              <h4>Travel.io</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 projects">
+        <a href="#" target="_blank">
+          <div class="overlay">
+            <img class="img-thumbnail" src="images/snake_io.PNG" alt="Snake.io"/>
+            <div class="projectName">
+              <h4>Snake.io</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 projects">
+        <a href=#" target="_blank">
+          <div class="overlay">
+            <img class="img-thumbnail" src="images/actress_io.PNG" alt="Actress.io"/>
+            <div class="projectName">
+              <h4>Actress.io</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 projects">
+        <a href="#" target="_blank">
+          <div class="overlay">
+            <img class="img-thumbnail" src="images/burger_code_io.PNG" alt="Burger_Code.io"/>
+            <div class="projectName">
+              <h4>Burger_Code.io</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 projects">
+        <a href="http://localhost/blog_wp/" target="_blank">
+          <div class="overlay">
+            <img class="img-thumbnail" src="images/coding_experience_io.PNG" alt="Coding_Experience.io"/>
+            <div class="projectName">
+              <h4>Coding_Experience.io</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="recommandations">
+  <div class="container-fluid">
+    <div class="red-divider"></div>
+    <div class="heading">
+      <h2>Recommandations</h2>
+    </div>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <h3>"Valentin t'es le meilleur! Merci pour tout..."</h3>
+          <h4>Larry Page, Google Co-Founder</h4>
+        </div>
+        <div class="carousel-item">
+          <h3>"L'esprit le plus créatif que j'ai vu de toute ma vie..."</h3>
+          <h4>Jack Dorsey, Twitter Founder and CEO</h4>
+        </div>
+        <div class="carousel-item">
+          <h3>"Merci Valentin de m'avoir appris à coder... Tout ça c'est grâce à toi!"</h3>
+          <h4>Mark Zuckerberg, Facebook Founder and CEO</h4>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+        <span class="fas fa-chevron-left fa-2x"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="button">
+        <span class="fas fa-chevron-right fa-2x"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="white-divider"></div>
+      <div class="heading">
+        <h2>Contact</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contact-form" role="form" action="">
+            <div class="row">
+              <div class="col-md-6">
+                <label for="firstname">Prénom<span class="red"> *</span></label>
+                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom">
+                <p class="comments"></p>
+              </div>
+              <div class="col-md-6">
+                <label for="name">Nom<span class="red"> *</span></label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom">
+                <p class="comments"></p>
+              </div>
+              <div class="col-md-6">
+                <label for="email">Email<span class="red"> *</span></label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Votre email">
+                <p class="comments"></p>
+              </div>
+              <div class="col-md-6">
+                <label for="phone">Téléphone</span></label>
+                <input type="phonenumber" id="phone" name="phone" class="form-control" placeholder="Votre téléphone">
+                <p class="comments"></p>
+              </div>
+              <div class="col-md-12">
+                <label for="message">Message<span class="red"> *</span></label>
+                <textarea id="message" name="message" class="form-control" placeholder="Votre message" rows="4" form="contact-form" method="post"></textarea>
+                <p class="comments"></p>
+              </div>
+              <div class="col-md-12">
+                <p class="red"><strong>* Ces informations sont requises.</strong></p>
+              </div>
+              <div class="col-md-12">
+                <p class="red"><strong>** Ce formulaire n'accepte désormais plus de requêtes.</strong></p>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="button-1" value="Envoyer">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</section>
+
+<footer class="text-center">
+  <a href="#" onClick="$('.toast').toast('show')">
+    <span class="fas fa-chevron-up"></span>
+  </a>
+  <h5>© Mystogan33 2019-2020</h5>
+</footer>
+
+<!-- jQuery, Popper.js & Boostrap js (dependencies) -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!-- My JS -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
