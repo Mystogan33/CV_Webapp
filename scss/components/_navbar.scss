@@ -1,0 +1,31 @@
+/* MENU */
+.navbar  {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all .1s;
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.nav-pills .nav-link  {
+  color: #fff !important;
+  text-align: center;
+  margin: 2px;
+  padding: 5px;
+}
+
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover  {
+  border: 1px solid #fff;
+  border-radius: 64px;
+  transition: all 0.3s ease-in 0s;
+  background: transparent;
+}
+
+.navbar-toggler  {
+  color: #fff !important;
+  border-style: none;
+}

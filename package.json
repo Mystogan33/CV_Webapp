@@ -1,0 +1,27 @@
+{
+  "name": "cv-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:build": "node-sass scss/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mystogan33/CV_Webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mystogan33/CV_Webapp/issues"
+  },
+  "homepage": "https://github.com/Mystogan33/CV_Webapp#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

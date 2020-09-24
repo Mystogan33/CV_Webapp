@@ -1,0 +1,37 @@
+/* EDUCATION */
+#education {
+  background: #fff;
+  padding-top: 0px;
+
+  .heading {
+    h2 {
+      color: #d82c2e;
+    }
+  }
+
+  .education-block {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30);
+
+    &:hover {
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+      transform: translateY(-5%);
+    }
+
+    .card-title {
+      color: #d82c2e;
+    }
+
+    .red-divider {
+      margin-top: 20px;
+    }
+
+    img {
+      height: 160px;
+      object-fit: cover;
+    }
+  }
+};

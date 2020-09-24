@@ -1,0 +1,19 @@
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    display: flex;
+    padding-top: 10px 0;
+    justify-content: space-between;
+    top: 10px;
+    -ms-flex-direction: row;
+    flex-wrap: nowrap;
+    width: 75%;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    background: rebeccapurple;
+  }
+}

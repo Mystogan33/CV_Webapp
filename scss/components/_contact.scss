@@ -1,0 +1,55 @@
+/* CONTACT */
+
+#contact {
+  background: url('/images/contact.jpg') no-repeat;
+  background-size: cover;
+
+  .heading h2 {
+    color: #fff;
+  }
+
+  #contact-form {
+    font-size: 20px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 15px rgba(0,0,0,0.20);
+
+    input[type="submit"] {
+      margin: 40px auto 0px;
+      display: block;
+    }
+
+    .button-1 {
+      color: #d82c2e;
+      border: 1px solid #d82c2e;
+
+      &:hover {
+        background: #d82c2e;
+        color: white;
+      }
+    }
+  }
+
+  .form-control {
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  .comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px;
+  }
+  
+  .thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #28a745;
+  }
+  
+}
+

@@ -1,0 +1,18 @@
+.button-1  {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top:  20px;
+  padding: 18px 50px;
+  border-radius: 64px;
+  transition: all 0.3s ease-in 0s;
+  
+  &:hover  {
+    background: white;
+    color: #d82c2e;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,34 @@
+/* RECOMMANDATIONS */
+#recommandations {
+  background: #fff;
+
+  .heading h2 {
+    color: #d82c2e;
+  }
+
+  .fas.fa-chevron-left, .fas.fa-chevron-right {
+    background-image: none;
+    color: #d82c2e;
+  }
+
+  .carousel-item {
+    padding: 40px 30px;
+
+    h3 {
+      color: #d82c2e;
+      font-style: italic;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: 0px;
+  
+    li {
+      background-color: gray;
+  
+      &.active {
+        background-color: #d82c2e;
+      }
+    }
+  }
+}

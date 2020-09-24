@@ -1,0 +1,24 @@
+.red-divider  {
+  width: 100px;
+  height: 2px;
+  background: #d82c2e;
+  margin: 0 auto 20px;
+
+}
+.white-divider  {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto 20px;
+}
+
+.red {
+  color: #d82c2e;
+}
+
+.inverted {
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 40% 50%;
+  border-bottom-right-radius: 40% 50%;
+}

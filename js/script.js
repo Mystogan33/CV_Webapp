@@ -1,4 +1,21 @@
 $(() => {
+
+	let about = $('#about');
+
+	const scrollListener = (event) => {
+		if(window.scrollY <= 450) {
+			$('.navbar').css("background-color", "transparent");
+			$('.navbar').css("top", "10px");
+		} else {
+			$('.navbar').css("background-color", "rebeccapurple");
+			$('.navbar').css("top", "0");
+		}
+
+		about.css("clip-path", `polygon(0 0, 0 100%, 100% ${75 + (window.scrollY/20)}%, 100% 0)`);
+	};
+
+	window.addEventListener('scroll', scrollListener);
+
 	console.log("jQuery been loaded...");
 	$(".toast").toast("show");
 	$("#contact-form").submit((e) => {

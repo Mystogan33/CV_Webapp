@@ -1,0 +1,45 @@
+/* SKILLS */
+#skills {
+	background: #fff;
+
+	.heading h2 {
+		color: #d82c2e;
+	}
+
+	.progress {
+		height: auto;
+		margin: 30px 20px;
+		background: #ddd;
+		transform: skewX(-20deg) translateX(-300%);
+		opacity: 0;
+		transition: all 1s;
+
+		&[data-scroll="in"] {
+			transform: skewX(-20deg) translateX(0);
+			opacity: 1;
+		}
+
+		&:hover {
+			transition: all 0.5s;
+			box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+				          0 15px 12px rgba(0, 0, 0, 0.22);
+		}
+	}
+
+	.progress-bar {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		i {
+			margin-left: 1rem;
+		}
+
+		h5 {
+			margin-top: 5px;
+			text-shadow: 1px 1px 1px #000;
+			transform: skewX(20deg);
+		}
+	}
+}
