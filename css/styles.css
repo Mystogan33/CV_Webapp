@@ -118,7 +118,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: url("../../images/about.jpg");
+  background: url("../images/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   transform: translateY(-70px);
@@ -169,7 +169,7 @@ section {
 
 /* EXPERIENCE */
 #experience {
-  background: url("../../images/work.jpg") no-repeat;
+  background: url("../images/work.jpg") no-repeat;
   background-size: cover;
   padding-bottom: 0; }
   #experience .container-fluid {
@@ -293,7 +293,7 @@ section {
 
 /* PORTFOLIO */
 #portfolio {
-  background: url("../../images/working.jpeg");
+  background: url("../images/working.jpeg");
   background-repeat: no-repeat;
   background-size: cover; }
   #portfolio .projects {
@@ -342,7 +342,7 @@ section {
 
 /* CONTACT */
 #contact {
-  background: url("../../images/contact.jpg") no-repeat;
+  background: url("../images/contact.jpg") no-repeat;
   background-size: cover; }
   #contact .heading h2 {
     color: #fff; }
