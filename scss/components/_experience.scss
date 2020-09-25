@@ -1,8 +1,9 @@
 /* EXPERIENCE */
 #experience {
-	background: url("../images/work.jpg") no-repeat;
+	background: #d82c2e;
 	background-size: cover;
-	padding-bottom: 0;
+  padding-bottom: 0;
+  overflow-y: hidden;
 
 	.container-fluid {
 		padding: 0;
@@ -14,7 +15,7 @@
 
 	.heading {
 		h2 {
-			color: rebeccapurple;
+			color: #fff;
 		}
   }
   

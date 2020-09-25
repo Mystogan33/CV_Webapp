@@ -1,9 +1,7 @@
 
 /* PORTFOLIO */
 #portfolio {
-  background: url('../images/working.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(#d82c2e, rebeccapurple);
  
   .projects {
     margin-bottom: 20px;
@@ -21,7 +19,7 @@
     }
 
     &[data-scroll="in"] {
-      transition: all 1s linear;
+      transition: all .6s;
       transform: translateX(0);
       opacity: 1;
     }

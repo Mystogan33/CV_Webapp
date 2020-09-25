@@ -177,15 +177,16 @@ section {
 
 /* EXPERIENCE */
 #experience {
-  background: url("../images/work.jpg") no-repeat;
+  background: #d82c2e;
   background-size: cover;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  overflow-y: hidden; }
   #experience .container-fluid {
     padding: 0; }
     #experience .container-fluid svg path {
       fill: white; }
   #experience .heading h2 {
-    color: rebeccapurple; }
+    color: #fff; }
   #experience .timeline {
     padding: 30px 10px;
     position: relative; }
@@ -307,9 +308,7 @@ section {
 
 /* PORTFOLIO */
 #portfolio {
-  background: url("../images/working.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background: linear-gradient(#d82c2e, rebeccapurple); }
   #portfolio .projects {
     margin-bottom: 20px;
     position: relative;
@@ -321,7 +320,7 @@ section {
     #portfolio .projects:nth-child(even) {
       transform: translateX(300%); }
     #portfolio .projects[data-scroll="in"] {
-      transition: all 1s linear;
+      transition: all .6s;
       transform: translateX(0);
       opacity: 1; }
   #portfolio .heading h2 {
