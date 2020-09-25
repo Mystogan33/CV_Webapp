@@ -105,7 +105,7 @@ section {
 .nav-pills .nav-link.active, .nav-pills .nav-link:hover {
   border: 1px solid #fff;
   border-radius: 64px;
-  transition: all 0.3s ease-in 0s;
+  transition: all .5s ease-in border-radius 0s;
   background: transparent; }
 
 .navbar-toggler {
@@ -279,7 +279,13 @@ section {
     text-align: center;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: all 1s;
+    clip-path: circle(0px at center); }
+    #education .education-block[data-scroll="in"] {
+      opacity: 1;
+      clip-path: circle(1000px at center); }
     #education .education-block:hover {
       box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
       transform: translateY(-5%); }
@@ -298,7 +304,17 @@ section {
   background-size: cover; }
   #portfolio .projects {
     margin-bottom: 20px;
-    position: relative; }
+    position: relative;
+    transition: all 1s linear;
+    opacity: 0; }
+    #portfolio .projects:nth-child(odd) {
+      transform: translateX(-300%); }
+    #portfolio .projects:nth-child(even) {
+      transform: translateX(300%); }
+    #portfolio .projects[data-scroll="in"] {
+      transition: all 1s linear;
+      transform: translateX(0);
+      opacity: 1; }
   #portfolio .heading h2 {
     color: #fff; }
   #portfolio .overlay {

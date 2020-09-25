@@ -6,8 +6,24 @@
   background-size: cover;
  
   .projects {
-     margin-bottom: 20px;
-     position: relative;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 1s linear;
+    opacity: 0;
+
+    &:nth-child(odd) {
+      transform: translateX(-300%);
+    }
+
+    &:nth-child(even) {
+      transform: translateX(300%);
+    }
+
+    &[data-scroll="in"] {
+      transition: all 1s linear;
+      transform: translateX(0);
+      opacity: 1;
+    }
    }
    
    .heading h2 {
