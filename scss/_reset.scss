@@ -4,6 +4,7 @@ html {
 
 body {
 	font-family: "Lato", sans-serif;
+	overflow-x: hidden;
 }
 h1,
 h2,
@@ -24,6 +25,7 @@ ol {
 
 section {
 	padding: 45px 0px 80px 0;
+	overflow-x: hidden;
 
 	.heading {
 		text-align: center;

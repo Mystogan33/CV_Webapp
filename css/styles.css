@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden; }
 
 h1,
 h2,
@@ -21,7 +22,8 @@ ol {
   list-style: none; }
 
 section {
-  padding: 45px 0px 80px 0; }
+  padding: 45px 0px 80px 0;
+  overflow-x: hidden; }
   section .heading {
     text-align: center;
     padding-bottom: 40px; }
@@ -38,6 +40,12 @@ section {
   width: 100px;
   height: 2px;
   background: #fff;
+  margin: 0 auto 20px; }
+
+.blue-divider {
+  width: 100px;
+  height: 2px;
+  background: rebeccapurple;
   margin: 0 auto 20px; }
 
 .red {
@@ -177,7 +185,7 @@ section {
     #experience .container-fluid svg path {
       fill: white; }
   #experience .heading h2 {
-    color: #fff; }
+    color: rebeccapurple; }
   #experience .timeline {
     padding: 30px 10px;
     position: relative; }
@@ -306,7 +314,8 @@ section {
     margin-bottom: 20px;
     position: relative;
     transition: all 1s linear;
-    opacity: 0; }
+    opacity: 0;
+    overflow: hidden; }
     #portfolio .projects:nth-child(odd) {
       transform: translateX(-300%); }
     #portfolio .projects:nth-child(even) {
@@ -319,22 +328,33 @@ section {
     color: #fff; }
   #portfolio .overlay {
     height: 100%;
-    position: relative; }
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3); }
     #portfolio .overlay:hover {
       box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
       transition: all .3s;
       transform: translate(-1%, -1%); }
     #portfolio .overlay img {
       width: 100%;
-      height: 100%; }
+      height: 350px;
+      border-radius: 20px; }
     #portfolio .overlay .projectName {
       position: absolute;
       bottom: 3px;
-      color: #d82c2e;
+      color: #D33160;
       background: rgba(255, 255, 255, 0.9);
       text-align: center;
       width: 100%;
-      padding: 10px; }
+      padding: 10px;
+      text-align: center;
+      border-radius: 20px; }
+      #portfolio .overlay .projectName p {
+        width: 70%;
+        background-color: #D33160;
+        color: white;
+        border-radius: 5px;
+        margin: 0 auto; }
 
 /* RECOMMANDATIONS */
 #recommandations {
